@@ -29,6 +29,7 @@ public class simpleInterest {
         if (principle*(1+rate*years)>newAmount){
             newAmount=newAmount+0.01;
         }
+
         System.out.print("After "+years+ " years at "+rateStr+"%, " +
                 "The investment will be worth: $"+ newAmount);
 
